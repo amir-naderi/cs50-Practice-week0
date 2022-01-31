@@ -1,0 +1,132 @@
+body {
+    font-family: arial, sans-serif;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.header{
+    display: flex;
+    font-size: 14px;
+    justify-content : flex-end;
+    margin-right: 7px;
+    cursor: pointer;
+}
+.header .sign{
+    background-color: #4275f4;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+}
+.header ul li{
+    display: inline-block;
+    margin: 10px;
+    margin-right: 7px;
+}
+.clearfix{
+    clear: both;
+}
+.googleapp{
+    height: 20px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+a{
+    margin-top: 15px;
+    color: #858383;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+.search-box{
+    background-color: re;
+    width: 500px;
+    margin: 100px auto;
+    text-align:center;
+}
+.search-input{
+    width: 450px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    padding: 10px;
+}
+.btm-search{
+    background-color: rgb(248, 249, 250);
+    color: rgb(60, 64, 67);
+    padding: 10px;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-right: 4px;
+    margin-left: 4px;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+}
+.btm-search:hover {
+    border: 1px solid #707070;
+}
+.footer ul li{
+    display: inline-block;
+    margin-left: 8px;
+}
+.footer{
+    position:fixed;
+    width: 100%;
+    padding: 10px;
+    bottom: 0px;
+    background-color: #e0e0e0;
+    display : flex;
+    justify-content : space-between;
+}
+ul, body{
+    margin: 0px;
+    padding :0px;
+   }
+.left-footer{
+    margin-right: 30px;
+}
+.google-logo{
+    width: 272px;
+}
+h1{
+    color:red;
+    font-size:20px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+hr{
+    color: #e9e9e9e0;
+}
+h2{
+    color:rgb(51, 51, 51);
+    font-size:16px;
+    font-weight: 400;
+}
+.advanced-form{
+    margin-top:8px;
+    color: dark-grey;
+    font-size:14px;
+}
+.btn-blue{
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 5px;
+    float:right;
+    font-size: 11px;
+    padding: 0 12px;
+    font-weight: bold;
+    background: rgb(48, 121, 237);
+    color: #fff;
+        border: none;
+    font-size: 15px;
+}
+pre{
+    color:rgb(0, 102, 204);
+}
+h1{
+    color: chartreuse;
+}
