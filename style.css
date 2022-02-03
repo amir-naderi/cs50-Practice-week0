@@ -14,12 +14,15 @@ body {
     background-color: #4275f4;
     color: #fff;
     padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     border-radius: 4px;
 }
 .header ul li{
     display: inline-block;
     margin: 10px;
-    margin-right: 7px;
+    margin-right: 10px;
+    margin-top: 15px;
 }
 .clearfix{
     clear: both;
@@ -28,6 +31,9 @@ body {
     height: 20px;
     margin-top: 3px;
     cursor: pointer;
+}
+.googleapp:hover{
+    background-color: #4b4b4b;
 }
 a{
     margin-top: 15px;
@@ -39,13 +45,12 @@ a:hover{
     text-decoration: underline;
 }
 .search-box{
-    background-color: re;
     width: 600px;
     margin: 100px auto;
     text-align:center;
 }
 .search-input{
-    width: 450px;
+    width: 550px;
     height: 20px;
     padding: 10px;
     border-radius: 24px;
@@ -55,9 +60,9 @@ a:hover{
     text-align: left;
 }
 .search-input:hover {
-    border: 1px solid #707070;
-    background-color: #a8a8a8;
-    border-color: #a8a8a8;
+    border: 1px solid #cccccc;
+    background-color: #e6e6e6;
+    border-color: #e6e6e6;
 }
 .btm-search{
     background-color: rgba(233, 233, 233, 0.986);
@@ -130,7 +135,7 @@ h2{
     border: none;
     background: #4275f4;
     color: #fff;
-    border-radius: 10px;
+    border-radius: 4px;
     font-size:15px;
     display: inline-block;
     }
